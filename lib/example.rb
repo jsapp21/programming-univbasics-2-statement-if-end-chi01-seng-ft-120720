@@ -1,8 +1,4 @@
-chance_of_rain = 1
-puts "let's go outside!"
-if chance_of_rain > 0.5
-  puts "pack an umbrella!"
-else
-  puts "enjoy the fine day!"
-end
-puts "oh, and wear sunscreen!"
+chance_of_rain = 0.2 
+if chance_of_rain <= 0.25
+  puts "pack a sun shelter!"
+elsif (chance_of_rain) > 0.25 && chance_of_rain < 0.75
